@@ -1,0 +1,6 @@
+services:
+  mongodb:
+    image: mongo:latest
+    ports:
+      - "8080:27017"
+  
